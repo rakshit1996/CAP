@@ -1,0 +1,12 @@
+COLUMN TABLE "EMP_DBTABLE_EMPLOYEES"(
+    ID                  NVARCHAR(36),
+    EMP_ID              NVARCHAR(255),
+    NAME                NVARCHAR(255),
+    EMAIL_ID            NVARCHAR(255),
+    DEPARTMENT_ID       NVARCHAR(36),
+    createdAt           TIMESTAMP,
+    createdBy           NVARCHAR(255),
+    modifiedAt          TIMESTAMP,
+    modifiedBy          NVARCHAR(255),
+ primary key(ID)
+)

@@ -1,0 +1,17 @@
+{
+    "role": {
+        "name": "BTP_DB_EC::write#",
+        "object_privileges": [
+            {
+                "name": "EMP_DBVIEWS.V_VI_EMPLOYEES",
+                "type": "TABLE",
+                "privileges_with_grant_option": [
+                    "SELECT",
+                    "INSERT",
+                    "UPDATE",
+                    "DELETE"
+                ]
+            }
+        ]
+    }
+}
